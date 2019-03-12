@@ -1,0 +1,149 @@
+.background-image {
+    background:url("images/clear.jpg");
+    background-size:cover;
+    height:auto;   
+    background-position:top-center;
+    background-repeat:no-repeat;
+}
+.logo-style{
+	text-align:center;  
+}
+.logo { 
+	width:50px; 
+    opacity:0.8;  
+}
+.header-style {
+	visibility: hidden;
+}
+.header-style h1 {
+	color:white; 
+	font-size:20px;
+	text-align:center; 
+	opacity:0.9;
+    text-transform:uppercase;
+    font-style:bold;
+    text-shadow:2px 2px black;
+	font-weight:900;     
+}
+.searchcontainer button {
+	background-color:white;
+	width:100px;
+	height:20px;   
+	cursor:pointer; 
+}
+.searchcontrol {
+	border:none;
+	box-shadow:2px 2px 5px black;
+	border-radius:5px;
+	opacity:0.8;
+	cursor:pointer;
+	margin-top:50px;    
+}
+
+.logo-design { 
+	width:300px;
+	height:350px; 
+	visibility: hidden; 
+	}
+.logo-design1 {
+	position:absolute;
+	width:300px;
+	height:350px; 
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-30%);      
+	}
+.logo-design2 {
+	position:absolute;
+	width:300px;
+	height:350px;
+	transform-style:preserve-3d; 
+	transition:all 0.5s ease;      
+	}
+.logo-design2:hover {
+	transform:rotateY(180deg); 
+	cursor:pointer; 
+}
+.logo-design3 {
+	position:absolute;
+	width:300px;
+	height:350px;
+	backface-visibility:hidden;
+	background:linear-gradient(to top,blue,#000000);
+	border-radius:20px; 
+	display:table;     
+         }
+         .background-img{  
+            background-size:cover;
+           background-position:center;
+           background-repeat:no-repeat;
+           box-shadow:1px 1px 5px white;
+            border-radius:10px;
+            height:350px;
+            width:300px; 
+            margin:0 auto;
+        }
+.logo-design4 {
+	position:absolute;
+	width:280px;
+	height:320px;
+    border-radius:20px;
+    text-transform:uppercase;
+    color:white; 
+	backface-visibility:hidden;
+	background:linear-gradient(to top,grey,white);  
+	transform:rotateY(180deg); 
+    padding:10px;
+}
+    .logo-design4 h1{
+font-size:17px;
+color:black;
+text-transform:uppercase; 
+text-align:center;  
+    }
+.logo-design4  h2 {
+    text-align:center;
+    color:black; 
+    font-size:16px;
+    text-transform:uppercase;  
+	}
+#list {
+	margin-bottom:20px; 
+	opacity:0.8;
+	color:blue;
+	cursor: pointer;
+	box-shadow:2px 2px 5px black;
+	border-radius:5px; 
+}
+
+.setposition {
+	visibility:visible;  
+}
+.style-names {
+	text-align:center; 
+}
+.style-names li{
+	color:black;
+	font-size:18px; 
+	font-style:bold;
+	font-weight:900; 
+	text-decoration:underline;   
+	margin:0 auto;
+	display: inline-block;
+	text-align:center;
+	transition:0.5;
+	padding:10px;   
+}
+.style-names  li:hover{
+	color:white; 
+	text-decoration:none;
+	cursor: pointer;  
+}
+
+
+
+
+
+
+
+
