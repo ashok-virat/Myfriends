@@ -146,16 +146,14 @@ $(document).ready(()=>{
     ]
   
    
-    $("#list").click(()=>{
-      let searchterm=$("#list").val()
-      $("#searchbtn").click(()=>{
+    $("#searchbtn").click(()=>{
+      let searchterm=$("#list").val();
         if(searchterm) {
+          
           searchforfriend(searchterm)
         }
-       
-       })  
-    
-    })
+        
+       })   
      
 
    function searchforfriend(searchterm) {
